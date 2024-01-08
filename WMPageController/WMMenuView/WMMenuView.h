@@ -74,6 +74,7 @@ typedef NS_ENUM(NSUInteger, WMMenuViewLayoutMode) {
 @end
 
 @interface WMMenuView : UIView <WMMenuItemDelegate>
+@property (nonatomic, assign) BOOL shouldDesign;
 @property (nonatomic, strong) NSArray *progressWidths;
 @property (nonatomic, weak) WMProgressView *progressView;
 @property (nonatomic, assign) CGFloat progressHeight;

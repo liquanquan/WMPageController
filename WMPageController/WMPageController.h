@@ -300,7 +300,7 @@ extern NSString *const WMControllerDidFullyDisplayedNotification;
 @property (nonatomic, assign) CGFloat progressViewCornerRadius;
 /** 顶部导航栏 */
 @property (nonatomic, nullable, weak) WMMenuView *menuView;
-
+@property (nonatomic, assign) BOOL shouldDesign;
 /** 内部容器 */
 @property (nonatomic, nullable, weak) WMScrollView *scrollView;
 

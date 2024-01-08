@@ -450,6 +450,7 @@ static NSInteger const kWMControllerCountUndefined = -1;
 
 - (void)wm_addMenuView {
     WMMenuView *menuView = [[WMMenuView alloc] initWithFrame:CGRectZero];
+    menuView.shouldDesign = self.shouldDesign;
     menuView.delegate = self;
     menuView.dataSource = self;
     menuView.style = self.menuViewStyle;
