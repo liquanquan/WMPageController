@@ -519,7 +519,7 @@
         }
         CGFloat spaceToTop = self.shouldDesign ? 8 : 0;
         CGRect frame = CGRectMake(contentWidth, spaceToTop, itemW, self.frame.size.height - spaceToTop);
-        CGRect frame = CGRectMake(contentWidth, 0, itemW, self.frame.size.height);
+//        CGRect frame = CGRectMake(contentWidth, 0, itemW, self.frame.size.height);
         // 记录frame
         [self.frames addObject:[NSValue valueWithCGRect:frame]];
         contentWidth += itemW + [self itemMarginAtIndex:i+1];
