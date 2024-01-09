@@ -577,7 +577,8 @@
     pView.speedFactor = self.speedFactor;
     pView.backgroundColor = [UIColor clearColor];
     self.progressView = pView;
-    [self.scrollView insertSubview:self.progressView atIndex:0];
+//    [self.scrollView insertSubview:self.progressView atIndex:0];
+    [self.scrollView addSubview:self.progressView];
 }
 
 #pragma mark - Menu item delegate
